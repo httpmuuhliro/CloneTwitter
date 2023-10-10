@@ -4,35 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="Fivecom/Fivecon.png" type="image/x-icon">
-    <link rel="stylesheet" href="login.css">
-    <title>Iniciar Sessão</title>
+    <title>Twitter</title>
 </head>
 <body>
     <main>
         <article>
-            <section>
-                <div id="container">
-                    <a href="login.html" target="_parent" rel="selfie"><img src="imagens/logo.png" alt="Logo Twitter"></a>
-                    <h2>Entrar no twitter</h2>
+            <section class="container">
+                <div class="background">
+                    <div class="container-login">
+                        <img id="logo" src="imagens/logo.png" alt="Twitter Logo">
+                        <h1><strong>No que você esta pensando?</strong></h1>
+                        <br>
+                        <p>Use o Twitter hoje mesmo.</p>
+                        <ul>
+                            <li><button class="Registrar"><a href="registar.html" target="_parent" rel="selfie">Registrar</a></button></li>
+                            <li><button class="login"><a href="iniciarsessao.html" target="_parent" rel="selfie">Iniciar Sessão</a></button></li>
+                        </ul>
+                    </div>
                 </div>
             </section>
         </article>
-    <article>
-        <section>
-            <div>
-                <label for="usuario"></label>
-                    <input type="text" nome="usuario" id="usuario" placeholder="Celular, Email ou Nome de usuário" autocomplete="off" size="30">
-                    <br>
-                    <input type="password" nome="senha" id="senha" placeholder="Senha" autocomplete="off" size="30">
-                    <br>
-                    <input id="enviar" type="submit" value="Entrar">
-                    <br>
-                    <p id="texto-esqueceu-senha"> Esqueceu sua senha?</p>
-                    <p id="texto-inscrevase">Inscrever-se no Twitter</p>
-            </div>
-        </section>
-    </article>
     </main>
 </body>
 </html>
